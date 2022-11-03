@@ -6,6 +6,9 @@ import AulaDoze from '@/views/AulaDoze'
 import AulaTreze from '@/views/AulaTreze'
 import AulaQuatorze from '@/views/AulaQuatorze'
 import AulaQuinze from '@/views/AulaQuinze'
+import AulaDezesseis from '@/views/AulaDezesseis'
+import AulaDezessete from '@/views/AulaDezessete'
+import AulaDezoito from '@/views/AulaDezoito'
 
 Vue.use(VueRouter)
 
@@ -36,15 +39,15 @@ const routes = [
   },
   {
     path: '/aula16',
-    component: undefined
+    component: AulaDezesseis
   },
   {
     path: '/aula17',
-    component: undefined
+    component: AulaDezessete
   },
   {
     path: '/aula18',
-    component: undefined
+    component: AulaDezoito
   },
   {
     path: '/aula19',

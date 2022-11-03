@@ -15,9 +15,7 @@ export default {
     created() {
         var cm = this;
         eventBus.$on('submit', function (texto) {
-            if (!texto) return;
-
-            if (texto.length < 5) {
+            if (texto) {
                 cm.list.push({ texto: texto })
             }
         })
