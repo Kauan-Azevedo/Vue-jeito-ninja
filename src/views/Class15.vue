@@ -4,18 +4,18 @@
 
     <v-divider class="my-5 mx-3"></v-divider>
 
-    <ItemsFormVue />
+    <ItemsForm />
   </div>
 </template>
 
 <script>
-import FormVue from "@/components/AulaQuinze/FormVue.vue";
-import ItemsFormVue from "@/components/AulaQuinze/ItemsForm.vue";
+import FormVue from "@/components/Class15/FormVue.vue";
+import ItemsForm from "@/components/Class15/ItemsForm.vue";
 
 export default {
   components: {
     FormVue,
-    ItemsFormVue,
+    ItemsForm,
   },
 };
 </script>
