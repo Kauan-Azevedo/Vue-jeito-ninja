@@ -1,5 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Class01 from "@/views/Class01";
+import Class02 from "@/views/Class02";
+import Class03 from "@/views/Class03";
+import Class04 from "@/views/Class04";
+import Class05 from "@/views/Class05";
+import Class06 from "@/views/Class06";
+import Class07 from "@/views/Class07";
+import Class08 from "@/views/Class08";
+import Class09 from "@/views/Class09";
 import Class10 from "@/views/Class10";
 import Class11 from "@/views/Class11";
 import Class12 from "@/views/Class12";
@@ -13,6 +22,42 @@ import Class18 from "@/views/Class18";
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/aula01",
+    component: Class01,
+  },
+  {
+    path: "/aula02",
+    component: Class02,
+  },
+  {
+    path: "/aula03",
+    component: Class03,
+  },
+  {
+    path: "/aula04",
+    component: Class04,
+  },
+  {
+    path: "/aula05",
+    component: Class05,
+  },
+  {
+    path: "/aula06",
+    component: Class06,
+  },
+  {
+    path: "/aula07",
+    component: Class07,
+  },
+  {
+    path: "/aula08",
+    component: Class08,
+  },
+  {
+    path: "/aula09",
+    component: Class09,
+  },
   {
     path: "/aula10",
     component: Class10,
